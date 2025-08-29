@@ -1,22 +1,25 @@
 body {
-    background-color: lightgoldenrodyellow
+    background-color: rgba(179, 147, 21 .3)
 }
 header{
+    text-align: center;
     color: red;
+    background-color: rgba(31, 116, 120, .3)
 }
 h1{
+    text-align: center;
     color: forestgreen
 }
 h2{
+    text-align: center;
     color: forestgreen
 }
 p{
+    text-align: center;
     color: forestgreen
 }
 li{
+    text-align: center;
+    align-items: center;
     color: forestgreen
-}
-image{
-    height: 50;
-    width: 504;
 }
