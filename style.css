@@ -14,15 +14,27 @@ h1{
     
 }
 
-h3, h4, h5, h6{
+h3{
     text-align: left;
     color: rgba(50, 108, 79, 1);
     background-color: rgba(31, 116, 120, .3);
 }
+ h4, h5, h6{
+    text-align: left;
+    color: rgba(50, 108, 79, 1);
+    background-color: rgba(31, 116, 120, .3);
+    text-indent: 20px;
+}
 
-li, p{
+li{
     align-content: left;
     color: rgba(50, 108, 79, 1);
+}
+
+p{
+    align-content: left;
+    color: rgba(50, 108, 79, 1);
+    text-indent: 20px;
 }
 
 .biography{
