@@ -1,25 +1,32 @@
-body {
-    background-color: rgba(179, 147, 21 .3)
+html{
+    background-color: rgba(179, 147, 21, .3) !important;
 }
+
 header{
     text-align: center;
-    color: red;
-    background-color: rgba(31, 116, 120, .3)
+    color: rgba(50, 108, 79, 1);
+    background-color: rgba(31, 116, 120, .3);
 }
+
 h1{
+    color: rgba(50, 108, 79, 1);
     text-align: center;
-    color: forestgreen
+    
 }
-h2{
-    text-align: center;
-    color: forestgreen
+
+h3, h4, h5, h6, p{
+    text-align: left;
+    color: rgba(50, 108, 79, 1);
+    background-color: rgba(31, 116, 120, .3);
 }
-p{
-    text-align: center;
-    color: forestgreen
-}
+
 li{
-    text-align: center;
-    align-items: center;
-    color: forestgreen
+    align-content: left;
+    color: rgba(50, 108, 79, 1);
 }
+
+#intro{
+    align-items: center;
+    background-color: rgba(31, 116, 120, .3)!important;
+}
+
