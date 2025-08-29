@@ -1,5 +1,6 @@
 html{
     background-color: rgba(179, 147, 21, .3) !important;
+    margin-bottom: 50px;
 }
 
 header{
@@ -13,7 +14,6 @@ h1{
     text-align: center;
     font-family:'Times New Roman', Times, serif;
     color: rgba(52, 78, 65, 1);
-    
 }
 
 h3{
@@ -23,13 +23,13 @@ h3{
     background-color: rgba(31, 116, 120, .3);
 }
 
- h4{
+h4{
     text-align: left;
     color: rgba(52, 78, 65, 1);
-    background-color: rgba(31, 116, 120, .3);
- }
+    background-color: rgba(31, 116, 120, .3); 
+}
 
- h5, h6{
+h5, h6{
     text-align: left;
     font-family:'Times New Roman', Times, serif;
     color: rgba(52, 78, 65, 1);
@@ -48,7 +48,6 @@ p{
     text-indent: 20px;
     font-family:'Times New Roman', Times, serif;
     color: rgba(52, 78, 65, 1);
-   
 }
 
 .biography{
@@ -57,6 +56,7 @@ p{
     grid-auto-flow: column;
     grid-template-columns: 300px auto;
 }
+
 @media (max-width: 700px) {
     .biography{
         grid-template-columns: 1fr;
@@ -71,11 +71,12 @@ p{
     height: 210px;
     width: 200px;
     padding: 50px;
-
 }
+
 .bioblurb{
     display: block;
     padding: 50px;
     margin-left: auto;
     margin-right: auto; 
 }
+
