@@ -51,9 +51,17 @@ p{
 }
 
 header{
-    display:grid;
+    display: grid;
     grid-template-columns: 300px auto;
-    grid-template-rows: repeat(2 100px);
+    grid-template-rows: auto auto;
+}
+.nameplate{
+    grid-column: 2;
+    grid-row: 1;
+}
+.bioblurb{
+    grid-column: 2;
+    grid-row: 2;
 }
 
 @media (max-width: 700px) {
@@ -67,9 +75,13 @@ header{
     display: block;
     margin-left:auto;
     margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
     height: 210px;
     width: 200px;
     padding: 50px;
+    grid-column: 1;
+    grid-row: 1 / span 2;
 }
 
 .bioblurb{
