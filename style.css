@@ -25,8 +25,9 @@ li{
     color: rgba(50, 108, 79, 1);
 }
 
-#intro{
+.intro{
     align-items: center;
     background-color: rgba(31, 116, 120, .3)!important;
+    
 }
 
