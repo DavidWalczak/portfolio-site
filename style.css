@@ -47,12 +47,14 @@ p{
 
 header{
     display: grid;
-    grid-template-columns: 300px auto;
+    grid-template-columns: 325px auto;
     grid-template-rows: auto auto;
 }
 .nameplate{
     grid-column: 2;
     grid-row: 1;
+    display: block;
+    margin: 20px;
 }
 .bioblurb{
     grid-column: 2;
@@ -75,13 +77,9 @@ header{
 
 .image{
     display: block;
-    margin-left:auto;
-    margin-right: auto;
     margin-top: auto;
     margin-bottom: auto;
-    height: 210px;
-    width: 200px;
-    padding: 50px;
+    padding: 20px;
     grid-column: 1;
     grid-row: 1 / span 2;
 }
