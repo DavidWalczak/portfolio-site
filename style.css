@@ -26,8 +26,25 @@ li{
 }
 
 .intro{
-    align-items: center;
     background-color: rgba(31, 116, 120, .3)!important;
-    
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    margin-left: auto;
+    margin-right: auto;
+
 }
 
+.image{
+    display: block;
+    margin-left: 10%;
+    margin-right: 90%;
+    height: 210px;
+    width: 200px;
+
+}
+.bioblurb{
+    display: block;
+    margin-left: auto;
+    margin-right: auto; 
+
+}
