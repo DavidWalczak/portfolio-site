@@ -5,15 +5,16 @@ html{
 
 header{
     text-align: center;
-    font-family:'Times New Roman', Times, serif;
+    font-family: 'Arial Black', 'Times New Roman', sans-serif;
     color: rgba(52, 78, 65, 1);
     background-color: rgba(31, 116, 120, .3);
 }
 
 h1{
-    text-align: center;
-    font-family:'Times New Roman', Times, serif;
-    color: rgba(52, 78, 65, 1);
+    font-size: xx-large;
+}
+h2{
+    font-size: x-large;
 }
 
 h3{
@@ -23,13 +24,7 @@ h3{
     background-color: rgba(31, 116, 120, .3);
 }
 
-h4{
-    text-align: left;
-    color: rgba(52, 78, 65, 1);
-    background-color: rgba(31, 116, 120, .3); 
-}
-
-h5, h6{
+h4, h5, h6{
     text-align: left;
     font-family:'Times New Roman', Times, serif;
     color: rgba(52, 78, 65, 1);
@@ -62,6 +57,13 @@ header{
 .bioblurb{
     grid-column: 2;
     grid-row: 2;
+    margin: 50px;
+    padding: 5px;
+    text-align: center;
+    font-size: large;
+    font-family:'Times New Roman', Times, serif;
+    color: rgba(52, 78, 65, 1);
+    background-color: rgba(31, 116, 120, .3); 
 }
 
 @media (max-width: 700px) {
@@ -82,11 +84,4 @@ header{
     padding: 50px;
     grid-column: 1;
     grid-row: 1 / span 2;
-}
-
-.bioblurb{
-    display: block;
-    padding: 10px;
-    margin-left: auto;
-    margin-right: auto; 
 }
