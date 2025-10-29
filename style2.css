@@ -223,6 +223,45 @@ section {
     box-shadow: 0 4px 10px rgba(0, 103, 71, 0.1);
 }
 
+.education {
+  margin: 2rem 0;
+}
+
+.education h4 {
+  font-size: 1.4rem;
+  margin-bottom: 0.75rem;
+  color: #222;
+}
+
+.education-list {
+  list-style-type: disc;
+  margin-left: 1.5rem;
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+.education-list ul {
+  list-style-type: circle;
+  margin-left: 1.5rem;
+  margin-top: 0.25rem;
+}
+
+/* Responsive spacing for smaller screens */
+@media (max-width: 600px) {
+  .education h4 {
+    font-size: 1.2rem;
+  }
+
+  .education-list {
+    margin-left: 1rem;
+    font-size: 0.95rem;
+  }
+
+  .education-list ul {
+    margin-left: 1rem;
+  }
+}
+
 /* Removed tile interactivity */
 section:hover {
     transform: none;
