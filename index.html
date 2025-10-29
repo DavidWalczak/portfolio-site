@@ -11,14 +11,32 @@
     <nav class="navbar">
         <div class="nav-container">
             <h1 class="nav-logo">David Walczak</h1>
+
+        
+            <div class="menu-toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+        </div>
             <ul class="nav-links">
                 <li><a href="#about">About</a></li>
-                <li><a href="#connect">Connect</a></li>
                 <li><a href="#qualifications">Qualifications</a></li>
+                <li><a href="#connect">Connect</a></li>
                 <li><a href="#resume">Résumé</a></li>
             </ul>
         </div>
     </nav>
+
+    <script>
+    
+        const menu = document.getElementById('mobile-menu');
+        const navLinks = document.querySelector('.nav-links');
+
+        menu.addEventListener('click', () => {
+            menu.classList.toggle('active');
+            navLinks.classList.toggle('active');
+        });
+    </script>
 
     <header id="about" class="intro-section">
         <div class="intro-content">
