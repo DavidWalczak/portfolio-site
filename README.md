@@ -1,2 +1,2 @@
-# Professional Portfolio Model One
-# This is my attempt at creating a professional portfolio for myself and to submit for my Business Application Development class
+# Professional Portfolio
+# This is my current proffesional portfolio with links to contact information and my resume. 
